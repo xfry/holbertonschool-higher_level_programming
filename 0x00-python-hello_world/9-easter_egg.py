@@ -1,2 +1,4 @@
 #!/usr/bin/python3
-print('{:s}The Zen of Python{:s} {:s}'.format("“","”,", "by TimPeters"))
+import this
+str = "\n".format(this)
+print(str[:str.find("those!")])
