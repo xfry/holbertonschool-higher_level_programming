@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-def isLower(c):
+def islower(c):
     for n in range(97, 123):
         if ord(c) == 99:
             return True
