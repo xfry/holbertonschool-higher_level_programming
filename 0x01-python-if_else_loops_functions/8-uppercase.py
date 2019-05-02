@@ -8,4 +8,4 @@ def uppercase(str):
             new_str += chr(up_letters[low_letters.index(ord(character))])
         else:
             new_str += character
-    print(new_str)
+    print("{:s}".format(new_str))
